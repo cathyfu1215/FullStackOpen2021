@@ -1,2 +1,6 @@
 # FullStackOpen2021
-FC's work on Full stack Open exercises.
+FC's work on Full Stack Open exercises.
+
+contents:
+React, Node, Express, Database, 
+
