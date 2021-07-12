@@ -1,0 +1,13 @@
+title exercise 0.5
+
+
+browser->server: HTTP GET /spa
+server->browser: main.html
+browser->server: HTTP GET /spa
+server->browser: main.css
+browser->server: HTTP GET /spa
+server->browser: main.js
+browser->server: HTTP GET /spa
+server->browser: data.json
+
+

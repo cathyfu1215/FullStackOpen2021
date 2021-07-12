@@ -1,0 +1,17 @@
+title exercise 0.4
+
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+server->browser:redirect to /notes
+browser->server: HTTP GET /notes
+server->browser: main.css
+browser->server: HTTP GET /notes
+server->browser: main.js
+browser->server: HTTP GET /notes
+server->browser: data.json
+browser->server: HTTP POST /new_note
+
+
+note over server:
+creates new object
+end note

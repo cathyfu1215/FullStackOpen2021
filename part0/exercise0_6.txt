@@ -1,0 +1,15 @@
+exercise 0.6
+
+
+
+
+browser->server:HTTP POST /new_notes_spa  
+
+note over browser: send json
+end note 
+
+server->browser:status code 201
+
+note over server:says OK
+end note 
+
