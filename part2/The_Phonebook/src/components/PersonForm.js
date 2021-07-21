@@ -62,18 +62,28 @@ const PersonForm=({persons,newName,newNumber,setPersons,setErrorMessage,setMessa
          
         }
         
-        personService
+         personService
         .create(personObject)
-        .then(returnedPerson=>{setPersons(persons.concat(returnedPerson))})
+        .then(returnedPerson=>{setPersons(persons.concat(returnedPerson))
+        
+          setMessageType('success')
+          setErrorMessage(`Added ${newName} .`)
+          setTimeout(()=>{setErrorMessage('')},5000)
+  
+          setNewName('')
+          setNewNumber('')
+        })
+        .catch(error=>{          //added validation notification after completing part3
+          console.log(error.response.data)
+          setMessageType('fail')
+          setErrorMessage(`${error.response.data.error}`)
+          setTimeout(()=>{setErrorMessage('')},5000)
+        })
 
 
-        setMessageType('success')
-        setErrorMessage(`Added ${newName} .`)
-        setTimeout(()=>{setErrorMessage('')},5000)
-
-        setNewName('')
-        setNewNumber('')
+        
       }} 
+
 
 
 
