@@ -1,5 +1,5 @@
 # FullStackOpen2021
-FC's work on Full Stack Open exercises.
+FC's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
 
 contents:
 
