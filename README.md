@@ -12,7 +12,7 @@ part5 Testing React App<br/>
 part6 State mgt with Redux<br/>
 part7 React Router, Custom Hooks, styling apps with CSS and webpack<br/>
 part8 GraphQL<br/>
-part9 TypeScript
-part10 React Native<br/>
-part11 CI/CD
+part9 TypeScript<br/>
+part10 React Native <br/>
+part11 CI/CD<br/>
 
