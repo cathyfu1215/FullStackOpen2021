@@ -75,7 +75,7 @@ const Blog = ( { setSuccessMessage,user,setBlogs,blogs,blog } ) => {
 
     <div style={blogStyle}>
       <div className='summary'> Title:{blog.title} Author: {blog.author} <button onClick={toggleView}>{buttonText}</button></div>
-      <div className='detail' style={optionalStyle}>Url: {blog.url} Likes:{blog.likes}  Created by :{user.name}
+      <div className='detail' style={optionalStyle}>Url: {blog.url} Likes:{blog.likes}  Created by :{blog.user.name}
         <button onClick={() => {likeBlog(blog)}}>like</button>
         {deleteButton(blog)}</div>
 
