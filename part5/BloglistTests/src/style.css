@@ -1,0 +1,41 @@
+.errorMessage{
+    color:red;
+  background: lightgrey;
+  font-size: 1.1em;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+    
+}
+
+.successMessage{
+  color:green;
+background: lightgrey;
+font-size: 1.1em;
+border-style: solid;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+  
+}
+
+.blogContent
+{
+background-color: wheat;
+line-height: 2em;
+font-size:1em
+}
+
+button{
+  padding:0.3em;
+  border-radius: 0.3em;
+  border-color: grey;
+}
+
+*{
+  padding-top: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  padding-bottom: 0.1em;}
+ 
