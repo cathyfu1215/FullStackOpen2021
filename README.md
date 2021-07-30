@@ -9,7 +9,7 @@ part2 Communicating with server✅<br/>
 part3 Programming a server with NodeJS and Express✅<br/>
 part4 Testing Express servers, user admin✅ 21/23 <br/>
 part5 Testing React App✅ 21/22 <br/>
-part6 State mgt with Redux<br/>
+part6 State mgt with Redux ✅ 20/21<br/>
 part7 React Router, Custom Hooks, styling apps with CSS and webpack<br/>
 part8 GraphQL<br/>
 part9 TypeScript<br/>
