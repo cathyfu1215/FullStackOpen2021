@@ -10,9 +10,12 @@ part3 Programming a server with NodeJS and Express✅<br/>
 part4 Testing Express servers, user admin✅ 21/23 <br/>
 part5 Testing React App✅ 21/22 <br/>
 part6 State mgt with Redux ✅ 20/21<br/>
-part7 React Router, Custom Hooks, styling apps with CSS and webpack<br/>
+part7 React Router, Custom Hooks, styling apps with CSS and webpack✅ 15/21 <br/>
 part8 GraphQL<br/>
 part9 TypeScript<br/>
 part10 React Native <br/>
 part11 CI/CD<br/>
+
+![covered certificate](https://user-images.githubusercontent.com/87288821/127738945-5c0aafe8-a387-4212-9c61-09b4e40df19f.png)
+
 
