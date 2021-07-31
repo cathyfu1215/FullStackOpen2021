@@ -16,6 +16,6 @@ part9 TypeScript<br/>
 part10 React Native <br/>
 part11 CI/CD<br/>
 
-![covered certificate](https://user-images.githubusercontent.com/87288821/127738945-5c0aafe8-a387-4212-9c61-09b4e40df19f.png)
+
 
 
