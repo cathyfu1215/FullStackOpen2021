@@ -13,7 +13,7 @@ part6 State mgt with Redux ✅ 20/21<br/>
 part7 React Router, Custom Hooks, styling apps with CSS and webpack✅ 15/21 <br/>
 part8 GraphQL✅ 23/26<br/>
 part9 TypeScript<br/>
-part10 React Native <br/>
+part10 React Native 18/27 working on it...<br/>
 part11 CI/CD<br/>
 
 
