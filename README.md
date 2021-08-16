@@ -14,7 +14,7 @@ part7 React Router, Custom Hooks, styling apps with CSS and webpack✅ 15/21 <br
 part8 GraphQL✅ 23/26<br/>
 part9 TypeScript<br/>
 part10 React Native 18/27 working on it...<br/>
-part11 CI/CD<br/>
+part11 CI/CD 9/22 working on it...<br/>
 
 
 
