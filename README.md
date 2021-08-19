@@ -12,15 +12,14 @@ contents:
 #### part5 Testing React App  ✅ 21/22 
 #### part6 State mgt with Redux  ✅ 20/21
 #### part7 React Router, Custom Hooks, styling apps with CSS and webpack  ✅ 15/21 
-certificate:
-https://user-images.githubusercontent.com/87288821/130008253-e617f53f-0065-416c-8aa3-0b67ad2a416e.png
+![certificate-fullstack-adjusted](https://user-images.githubusercontent.com/87288821/130008956-99f63f05-1ada-435c-bfa7-501b469829fe.png)
 
 
 
 ## GraphQL (1 credit)
 #### part8 GraphQL  ✅ 23/26
-certificate:
-https://user-images.githubusercontent.com/87288821/130008268-87469059-f6b8-485d-905f-cad1e7c9edff.png
+
+![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
 
 ## TypeScript (1 credit)
 #### part9 TypeScript  🚀...11/27
