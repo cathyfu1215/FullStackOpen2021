@@ -3,18 +3,33 @@ FC's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
 
 contents:
 
-part0 Fundamentals of Web Apps ✅<br/>
-part1 Intro to React✅<br/>
-part2 Communicating with server✅<br/>
-part3 Programming a server with NodeJS and Express✅<br/>
-part4 Testing Express servers, user admin✅ 21/23 <br/>
-part5 Testing React App✅ 21/22 <br/>
-part6 State mgt with Redux ✅ 20/21<br/>
-part7 React Router, Custom Hooks, styling apps with CSS and webpack✅ 15/21 <br/>
-part8 GraphQL✅ 23/26<br/>
-part9 TypeScript working on it 🚀...<br/>
-part10 React Native 18/27 working on it🚀...<br/>
-part11 CI/CD 12/22 working on it🚀...<br/>
+## Core 0-7 (7 credits)
+#### part0 Fundamentals of Web Apps  ✅
+#### part1 Intro to React  ✅
+#### part2 Communicating with server  ✅
+#### part3 Programming a server with NodeJS and Express  ✅
+#### part4 Testing Express servers, user admin  ✅ 21/23 
+#### part5 Testing React App  ✅ 21/22 
+#### part6 State mgt with Redux  ✅ 20/21
+#### part7 React Router, Custom Hooks, styling apps with CSS and webpack  ✅ 15/21 
+certificate:
+https://user-images.githubusercontent.com/87288821/130008253-e617f53f-0065-416c-8aa3-0b67ad2a416e.png
+
+
+
+## GraphQL (1 credit)
+#### part8 GraphQL  ✅ 23/26
+certificate:
+https://user-images.githubusercontent.com/87288821/130008268-87469059-f6b8-485d-905f-cad1e7c9edff.png
+
+## TypeScript (1 credit)
+#### part9 TypeScript  🚀...11/27
+
+## React Native (2 credits)
+#### part10 React Native 🚀...18/27 
+
+## CI/CD (1 credit)
+#### part11 CI/CD 🚀...12/22 
 
 
 
