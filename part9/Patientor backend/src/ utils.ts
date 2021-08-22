@@ -1,11 +1,5 @@
 
-
-
-//define a function toNewPatientEntry that
-//receives the request body as a parameter
-//and returns a properly typed NewPatientEntry object
-
-import { NewPatientEntry,Gender } from './types';
+import { NewPatientEntry,Gender} from './types';
 
 const parseName = (name: unknown): string => {
     if (!name || !isString(name)) {
@@ -45,6 +39,8 @@ const parseOccupation = (occupation: unknown): string => {
   
     return occupation;
 };
+
+
   
   const isString = (text: unknown): text is string => {
     return typeof text === 'string' || text instanceof String;
@@ -55,8 +51,9 @@ const parseOccupation = (occupation: unknown): string => {
   };
 
 
-type Fields = { name : unknown, dateOfBirth: unknown, ssn: unknown, gender: unknown, occupation: unknown };
+type Fields = { name : unknown, dateOfBirth: unknown, ssn: unknown, gender: unknown, occupation: unknown,entries:unknown };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const toNewPatientEntry=({name,dateOfBirth,ssn,gender,occupation}:Fields): NewPatientEntry=>{
     
     
@@ -66,10 +63,13 @@ const toNewPatientEntry=({name,dateOfBirth,ssn,gender,occupation}:Fields): NewPa
         dateOfBirth:parseDOB(dateOfBirth),
         ssn:parseSSN(ssn),
         gender:parseGender(gender),
-        occupation:parseOccupation(occupation) ,
+        occupation:parseOccupation(occupation),
+        entries:[]
+       
 
     };
     return newEntry;
 };
 
 export default toNewPatientEntry;
+

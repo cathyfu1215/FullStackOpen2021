@@ -26,6 +26,7 @@ const getEntries = (): Array<PatientEntry> => {
 
         const newPatientEntry={
             id:id,
+            
             ...entry
 
         };

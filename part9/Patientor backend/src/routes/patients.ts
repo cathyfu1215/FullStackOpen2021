@@ -5,8 +5,14 @@ import toNewPatientEntry from '../ utils';
 
 const router = express.Router();
 
-router.get('/', (_req, res) => {
+router.get('/', (_req, res) => {//get all patients without ssn and diagnose entries 
   res.send(patientService.getNonSensitiveEntries());
+});
+
+router.get('/:id', (req, res) => { //by doing this none of the fields are hidden
+  
+  const id =req.params.id;
+  res.send(patientService.getEntries().filter(p=>p.id===id));
 });
 
 router.post('/', (req, res) => {
