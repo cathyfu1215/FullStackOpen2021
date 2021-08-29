@@ -22,10 +22,10 @@ contents:
 ![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
 
 ## TypeScript (1 credit)
-#### part9 TypeScript  🚀...11/27
+#### part9 TypeScript  🚀...14/27
 
 ## React Native (2 credits)
-#### part10 React Native 🚀...18/27 
+#### part10 React Native 🚀...22/27 
 
 ## CI/CD (1 credit)
 #### part11 CI/CD 🚀...12/22 
