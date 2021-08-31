@@ -25,7 +25,9 @@ contents:
 #### part9 TypeScript  🚀...14/27
 
 ## React Native (2 credits)
-#### part10 React Native 🚀...22/27 
+#### part10 React Native ✅ 26/27 
+![certificate-reactnative-modified](https://user-images.githubusercontent.com/87288821/131450174-36a87ea3-3f17-4556-a8d3-89839a33e78d.png)
+
 
 ## CI/CD (1 credit)
 #### part11 CI/CD 🚀...12/22 
