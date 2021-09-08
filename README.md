@@ -83,7 +83,7 @@ contents:
 
 
 ## CI/CD (1 credit)
-#### part11 CI/CD 🚀...18/22 
+#### part11 CI/CD 🚀...20/22 
 * Intro to CI/CD
 * Getting started with GitHub Actions
 * Deployment
