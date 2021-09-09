@@ -25,27 +25,27 @@ contents:
 * Saving data to MongoDB
 * Validation and Eslint
 
-#### part4 Testing Express servers, user admin  ✅ 21/23 
+#### part4 Testing Express servers, user admin  ✅ 
 * Structure of backend application, intro to testing
 * Testing the backend
 * User admin
 * Token authentication
 
-#### part5 Testing React App  ✅ 21/22 
+#### part5 Testing React App  ✅ 
 * Login in frontend
 * porps.children and proptypes
 * Testing React apps
 * End to end testing
 
 
-#### part6 State mgt with Redux  ✅ 20/21
+#### part6 State mgt with Redux  ✅ 
 * Flux-architecture and Redux
 * Many reducers
 * Communicating with server in a redux application
 * connect
 
 
-#### part7 React Router, Custom Hooks, styling apps with CSS and webpack  ✅ 15/21 
+#### part7 React Router, Custom Hooks, styling apps with CSS and webpack  ✅ 
 * React-router
 * Custom hooks
 * More about styles
@@ -57,7 +57,7 @@ contents:
 
 
 ## GraphQL (1 credit)
-#### part8 GraphQL  ✅ 23/26
+#### part8 GraphQL  ✅ 
 * GraphQL-server
 * React and GraphQL
 * Database and user admin
@@ -67,14 +67,14 @@ contents:
 ![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
 
 ## TypeScript (1 credit)
-#### part9 TypeScript  🚀...14/27
+#### part9 TypeScript  🚀...16/27
 * Background and intro
 * First steps with TypeScript
 * Typing the express app
 * React with types
 
 ## React Native (2 credits)
-#### part10 React Native ✅ 26/27 
+#### part10 React Native ✅
 * Intro to React Native
 * React Native basics
 * Communicating with server
