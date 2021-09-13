@@ -6,11 +6,11 @@ const getEntries = ():Array<DiagnoseEntry> => {
     return diagnoses;
   };
   
-  const addEntry = () => {
+  const addDiagnoseEntry = () => {//will write it later
     return null;
   };
   
   export default {
     getEntries,
-    addEntry
+    addDiagnoseEntry
   };

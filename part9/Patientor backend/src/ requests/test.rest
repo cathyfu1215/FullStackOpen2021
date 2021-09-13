@@ -1,0 +1,26 @@
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+    "name":"tom",
+    "dateOfBirth":"1999-09-09",
+    "ssn":"1234",
+    "gender":"male",
+    "occupation":"archer",
+    "entries":[]
+
+}
+###
+
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+    
+    "dateOfBirth":"1999-09-09",
+    "ssn":"1234",
+    "gender":"male",
+    "occupation":"archer",
+    "entries":[]
+
+}

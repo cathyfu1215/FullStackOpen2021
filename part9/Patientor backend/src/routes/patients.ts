@@ -12,18 +12,24 @@ router.get('/', (_req, res) => {//get all patients without ssn and diagnose entr
 router.get('/:id', (req, res) => { //by doing this none of the fields are hidden
   
   const id =req.params.id;
-  res.send(patientService.getEntries().filter(p=>p.id===id));
+  const thePatient=patientService.findById(id);
+
+  if(thePatient){res.send(thePatient);}
+  else{res.sendStatus(404);}
+
 });
 
 router.post('/', (req, res) => {
+  
   try {
     const newPatientEntry = toNewPatientEntry(req.body);
 
-    const addedEntry = patientService.addEntry(newPatientEntry);
+    const addedEntry = patientService.addPatientEntry(newPatientEntry);
     
     res.json(addedEntry);
   } 
-  catch (e) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  catch (e:any) {
     res.status(400).send(e.message);
   }
 });

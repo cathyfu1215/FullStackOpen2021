@@ -9,6 +9,11 @@ const getEntries = (): Array<PatientEntry> => {
     return patientEntries;
   };
 
+  const findById = (id: string): PatientEntry|undefined => {
+    const entry = patientEntries.find(p => p.id === id);
+    return entry;
+  };
+
  const getNonSensitiveEntries=():NonSensitivePatientEntry[]=>{
     const nonSensitivePatients=patientEntries.map(({id,name,dateOfBirth,gender,occupation})=>({
         id,
@@ -20,23 +25,22 @@ const getEntries = (): Array<PatientEntry> => {
     return nonSensitivePatients;
  }; 
   
-  const addEntry = (entry:NewPatientEntry):PatientEntry => {
+  const addPatientEntry = (entry:NewPatientEntry):PatientEntry => {
     
     const id = uuid();
 
-        const newPatientEntry={
+    const newPatientEntryWithId={
             id:id,
-            
             ...entry
+    };
 
-        };
-
-        patientEntries.concat(newPatientEntry);
-        return newPatientEntry;
+    patientEntries.concat(newPatientEntryWithId);
+    return newPatientEntryWithId;
   };
   
   export default {
     getEntries,
     getNonSensitiveEntries,
-    addEntry
+    addPatientEntry,
+    findById
   };
