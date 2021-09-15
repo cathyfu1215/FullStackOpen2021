@@ -67,7 +67,7 @@ contents:
 ![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
 
 ## TypeScript (1 credit)
-#### part9 TypeScript  🚀...16/27
+#### part9 TypeScript  🚀...21/27
 * Background and intro
 * First steps with TypeScript
 * Typing the express app
