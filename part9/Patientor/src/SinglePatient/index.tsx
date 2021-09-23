@@ -1,9 +1,8 @@
-/* eslint-disable react/jsx-key */
+
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React from "react";
-
-import { Gender, Patient,Entry } from "../types";
+import { Gender, Patient,Entry, OccupationalHealthcareEntry, HospitalEntry, HealthCheckEntry } from "../types";
 import { useParams } from "react-router-dom";
 
 import { apiBaseUrl } from "../constants";
@@ -12,6 +11,8 @@ import axios from "axios";
 import { Icon} from 'semantic-ui-react';
 import { useStateValue } from "../state";
 import {fetchOnePatient} from"../state/reducer";
+
+
 
 const SinglePatientView=():JSX.Element=>{
 
@@ -44,6 +45,7 @@ const SinglePatientView=():JSX.Element=>{
       else return<Icon name="genderless"/>;
   };
 
+  
   const fetchCodeName=(c:string)=>{
     // console.log('diagnosis list:',diagnosis);
     if(diagnosis){
@@ -52,6 +54,61 @@ const SinglePatientView=():JSX.Element=>{
     return (obj.name);}}
   };
 
+  const HealthCheckEntryComponent=(props:{item:HealthCheckEntry})=>{
+    const codes=props.item.diagnosisCodes;
+    return(
+      <div style={{backgroundColor: "lightblue"}}>
+      <h3>HealthCheck <Icon  name="doctor"/></h3>
+      <div>
+      <h4>{props.item.date}</h4>
+      <p>{props.item.description}</p>
+              {codes?.map(c=>{
+                const codeName=fetchCodeName(c);
+                return(
+                <li key={c}> {c}:{codeName}</li>);
+              })}
+            </div>
+    </div>
+    );
+  };
+  const HospitalEntryComponent=(props:{item:HospitalEntry})=>{
+    const codes=props.item.diagnosisCodes;
+    return(
+      <div style={{backgroundColor: "lightyellow"}}>
+      <h3>Hospital <Icon  name="hospital"/></h3>
+      
+      <div>
+      <h4>{props.item.date}</h4>
+              <p>{props.item.description}</p>
+              {codes?.map(c=>{
+                const codeName=fetchCodeName(c);
+                return(
+                <li key={c}> {c}:{codeName}</li>);
+              })}
+            </div>
+    </div>
+    );
+  };
+  const OccupationalHealthcareEntryComponent=(props:{item:OccupationalHealthcareEntry})=>{
+    const codes=props.item.diagnosisCodes;
+    return(
+      <div style={{backgroundColor: "lightgreen"}}>
+      <h3>OccupationalHealthcare <Icon  name="lab"/></h3>
+      
+      <div>
+              <h4>{props.item.date}</h4>
+              <p>{props.item.description}</p>
+              {codes?.map(c=>{
+                const codeName=fetchCodeName(c);
+                return(
+                <li key={c}> {c}:{codeName}</li>);
+              })}
+            </div>
+    </div>
+    );
+  };
+
+  
 
     if(patient){
       // console.log('patient info:',patient);
@@ -65,17 +122,13 @@ const SinglePatientView=():JSX.Element=>{
          <h4>occupation:{patient.occupation}</h4>
          <h2>Entries</h2>
          {entries.map(entry=>{
-           const codes=entry.diagnosisCodes;
-           return(
-            <div key={entry.id}>
-              <p key={entry.id}>{entry.date}{entry.description}</p>
-              {codes?.map(c=>{
-                const codeName=fetchCodeName(c);
-                return(
-                <li key={c}> {c}:{codeName}</li>);
-              })}
-            </div>
-           );
+
+         if(entry.type==="Hospital"){return <HospitalEntryComponent item={entry}/>;}
+         if(entry.type==="OccupationalHealthcare"){return <OccupationalHealthcareEntryComponent item={entry}/>;}
+         else return <HealthCheckEntryComponent item={entry}/>;
+
+           
+           
          })}
      </div>
  );}
