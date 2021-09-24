@@ -67,11 +67,13 @@ contents:
 ![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
 
 ## TypeScript (1 credit)
-#### part9 TypeScript  🚀...21/27
+#### part9 TypeScript ✅
 * Background and intro
 * First steps with TypeScript
 * Typing the express app
 * React with types
+![certificate-typescript copy](https://user-images.githubusercontent.com/87288821/134606134-5936b3ca-540a-453f-9bfd-613657343820.png)
+
 
 ## React Native (2 credits)
 #### part10 React Native ✅
