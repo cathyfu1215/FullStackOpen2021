@@ -1,5 +1,9 @@
 # FullStackOpen2021
-FC's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
+
+#### FC's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
+#### ✅ :this part has received credits
+#### 🚀 :this part is not submitted
+#### part8-12 has their own repositories.Links are put in the readme file.
 
 contents:
 
@@ -93,5 +97,9 @@ contents:
 * Expanding further
 
 
-
+## Containers (1 credit)
+#### part12 Containers 🚀...0/22
+* Intro to Containers
+* Building and configuring environments
+* Basics of Orchestration
 
