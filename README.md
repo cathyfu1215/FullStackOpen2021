@@ -98,7 +98,7 @@ contents:
 
 
 ## Containers (1 credit)
-#### part12 Containers 🚀...6/22
+#### part12 Containers 🚀...12/22
 * Intro to Containers
 * Building and configuring environments
 * Basics of Orchestration
