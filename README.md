@@ -1,6 +1,6 @@
 # FullStackOpen2021
 
-#### FC's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
+#### Phoenix's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
 #### ✅ :this part has received credits
 #### 🚀 :this part is not submitted
 #### part8-12 has their own repositories.Links are put in the readme file.
