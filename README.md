@@ -1,11 +1,10 @@
-# FullStackOpen2021
+# FullStackOpen 2021-2022
 
 #### Phoenix's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
-#### ✅ :this part has received credits
-#### 🚀 :this part is not submitted
-#### part8-12 has their own repositories.Links are put in the readme file.
 
-contents:
+#### part10-12 has their own repositories.Links are put in the readme file.
+
+
 
 ## Core 0-7 (7 credits)
 #### part0 Fundamentals of Web Apps  ✅
@@ -56,7 +55,8 @@ contents:
 * Webpack
 * Class components, Miscellaneous
 * Exercises
-![certificate-fullstack-adjusted](https://user-images.githubusercontent.com/87288821/130008956-99f63f05-1ada-435c-bfa7-501b469829fe.png)
+
+![fullStack1-7](https://user-images.githubusercontent.com/87288821/157356606-27a28227-19b2-412c-84c0-601873e81029.png)
 
 
 
@@ -68,7 +68,8 @@ contents:
 * Login and updating the cache
 * Fragments and subscriptions
 
-![certificate-graphql-adjusted](https://user-images.githubusercontent.com/87288821/130008898-1103eadd-249e-4866-b253-2c70cc283781.png)
+![graphql](https://user-images.githubusercontent.com/87288821/157356632-40564427-79e3-4345-91c5-7ba8f1dd6734.png)
+
 
 ## TypeScript (1 credit)
 #### part9 TypeScript ✅
@@ -76,7 +77,9 @@ contents:
 * First steps with TypeScript
 * Typing the express app
 * React with types
-![certificate-typescript copy](https://user-images.githubusercontent.com/87288821/134606134-5936b3ca-540a-453f-9bfd-613657343820.png)
+
+![typescript](https://user-images.githubusercontent.com/87288821/157356653-e2ed6d82-0d84-4ed2-bfdb-dadd6eb7eb7e.png)
+
 
 
 ## React Native (2 credits)
@@ -85,7 +88,9 @@ contents:
 * React Native basics
 * Communicating with server
 * Testing and extending our application
-![certificate-reactnative-modified](https://user-images.githubusercontent.com/87288821/131450174-36a87ea3-3f17-4556-a8d3-89839a33e78d.png)
+
+![react-native](https://user-images.githubusercontent.com/87288821/157356669-1ddd9359-400f-4786-bf82-5183c33d79d1.png)
+
 
 
 ## CI/CD (1 credit)
