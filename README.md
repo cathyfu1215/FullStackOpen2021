@@ -1,6 +1,6 @@
 # FullStackOpen 2021-2022
 
-#### Phoenix's work on Full Stack Open (https://fullstackopen.com/en/) exercises.
+#### Cong(Cathy)'s work on Full Stack Open (https://fullstackopen.com/en/) exercises.
 
 #### part10-12 has their own repositories.Links are put in the readme file.
 
