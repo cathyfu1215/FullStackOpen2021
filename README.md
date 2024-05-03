@@ -56,7 +56,8 @@
 * Class components, Miscellaneous
 * Exercises
 
-![fullStack1-7](https://user-images.githubusercontent.com/87288821/157356606-27a28227-19b2-412c-84c0-601873e81029.png)
+![certificate-fullstack](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/64bd24e9-4e83-4da5-a329-a3629d40ad30)
+
 
 
 
@@ -68,7 +69,8 @@
 * Login and updating the cache
 * Fragments and subscriptions
 
-![graphql](https://user-images.githubusercontent.com/87288821/157356632-40564427-79e3-4345-91c5-7ba8f1dd6734.png)
+![certificate-graphql](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/11e5e906-7faa-49d2-8824-2214bb2c6e18)
+
 
 
 ## TypeScript (1 credit)
@@ -78,7 +80,8 @@
 * Typing the express app
 * React with types
 
-![typescript](https://user-images.githubusercontent.com/87288821/157356653-e2ed6d82-0d84-4ed2-bfdb-dadd6eb7eb7e.png)
+
+![certificate-typescript](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/78bd95b7-4b60-4557-bfd1-1f9c8c8946bb)
 
 
 
@@ -89,7 +92,8 @@
 * Communicating with server
 * Testing and extending our application
 
-![react-native](https://user-images.githubusercontent.com/87288821/157356669-1ddd9359-400f-4786-bf82-5183c33d79d1.png)
+![certificate-reactnative](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/57d3f7ac-c718-4dae-aa82-fc6e3befbdb7)
+
 
 
 
