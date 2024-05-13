@@ -1,9 +1,118 @@
-# FullStackOpen 2021-2022
+# FullStackOpen (University of Helsinki)
 
-#### Cong(Cathy)'s work on Full Stack Open (https://fullstackopen.com/en/) exercises.
 
-#### part10-12 has their own repositories.Links are put in the readme file.
 
+# Course Description
+Source: https://studies.helsinki.fi/courses/course-unit/otm-7f2015a3-2003-44af-984b-c80df2cfab0f/CSM141081
+
+## COURSE UNIT CSM141081
+
+## Full Stack Web Development (5 cr)
+Responsible organisation: Master's Programme in Computer Science, Bachelor's Programme in Computer Science
+
+Responsible teacher for course unit: Matti Luukkainen
+
+Course unit level: Advanced studies
+
+Course unit type: Regular course unit
+
+Possible attainment languages: English, Finnish, Swedish
+
+
+## COURSE UNIT INFORMATION
+### Tweet text
+Deep Dive Into Modern Web Development
+
+### Prerequisites
+Participants are expected to have
+
+* good programming routine,
+* basic knowledge of web programming and databases,
+* mastery of basic use of the Git version management system,
+* perseverance, and
+* a capacity for solving problems and seeking information independently.
+
+Previous knowledge of JavaScript or other course topics is not required.
+
+### RECOMMENDED PREREQUISITES
+Recommended prior knowledge 1
+* TKT20019 Databases and Web Programming 5 cr
+* TKT10003 Advanced Course in Programming 5 cr
+* TKT10004 Introduction to Databases 5 cr
+
+
+### Learning outcomes
+Fluency in architecting and building robustly tested Single page applications with React, Redux and Express libraries.
+
+In the learning, emphasis is put on building modular software applying the functional programming paradigm.
+
+### Content
+* Fundamentals of HTML and CSS for structuring browser based apps
+* Building and structuring component based frontend code with React
+* State management with React hook store and Redux (using the Flux architecture)
+* HTTP protocol and RESTfull APIs
+* Building RESTfull services with Node/Express
+* Data modelling with Document databases
+* Unit, integration and End to End testing with Jest and Cypress.io libraries
+* Build configuration using WebPack-library
+
+#### Learning materials
+The course material is available at https://fullstackopen.com/en/
+
+
+## Additional info
+### Target group
+
+The course is suitable for
+
+* Computer Science and Data Science students,
+* those working on the field, and
+* advanced amateur programmers.
+* Suitable for students in any degree programme.
+
+The course may be offered among the university’s continuous learning courses.
+
+### Completion methods
+
+Self-paced mandatory programming exercises and a course exam.
+
+Open University and degree programme completion methods may be different.
+
+### Assessment practices and criteria
+
+The final grade is determined by the number of submitted exercises, including those that are not marked with an asterisk.
+
+The course exam which does not count towards your final grade, but must be passed.
+
+The course is graded on the scale 0-5.
+
+### Activities and teaching methods in support of learning
+
+A self-study material, online tutoring in Discord, example solutions for completed exercises. The campus version has also weekly tutoring groups.
+
+### Timing
+The campus course in 3rd period, Open university version is open round the year.
+
+### Recommended optional studies
+
+Full Stack extensions:
+
+* Full Stack Web Development, extension 1 (1 cr)
+* Full Stack Web Development, extension 2 (1 cr)
+* Full Stack Web Development: GraphQL (1 cr)
+* Full Stack Web Development: TypeScript (1 cr)
+* Full Stack Web Development: React Native (2 cr)
+* Full Stack Web Development: Continuous Integration (1 cr)
+* Full Stack Web Development: Relational Databases (1 cr)
+
+
+
+<br>
+<br>
+
+## Content of Each Part and My Certificates
+##### Detailed information can be found in their own repositories.
+##### Part10-12 has their own repositories.Links are put in the readme file.
 
 
 ## Core 0-7 (7 credits)
