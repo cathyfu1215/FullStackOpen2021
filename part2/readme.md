@@ -45,4 +45,3 @@ In this part, we will continue our introduction to React. We will cover renderin
 - Inline styles
 - Couple of important remarks
 
-Stay tuned for more updates as we continue our journey with React!
