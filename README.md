@@ -1,11 +1,15 @@
-# FullStackOpen (University of Helsinki)
+# FullStackOpen (University of Helsinki) 
 
-This course is an introduction to modern web development with JavaScript. The main focus is on single-page applications implemented with React and supporting them with RESTful and GraphQL web services implemented with Node.js. The course also has parts on TypeScript, React Native, and Continuous integration.
 
-Other topics include debugging applications, container technology, configuration, managing runtime environments, and databases.
+| | |
+|------|-------|
+| This course is an introduction to modern web development with JavaScript. The main focus is on single-page applications implemented with React and supporting them with RESTful and GraphQL web services implemented with Node.js. The course also has parts on TypeScript, React Native, and Continuous integration. Other topics include debugging applications, container technology, configuration, managing runtime environments, and databases. | <img src="https://github.com/user-attachments/assets/1fb905c7-dc8d-4e0e-9769-ebcd0c35ae35" width="900" /> |
 
-# Sample Projects
-## phone book project 
+
+## Sample Projects
+
+## Phone book project 
+#### keywords: React, axios, REST, Node.js, Express, MongoDB, Eslint 
 
 frontend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part2/The_Phonebook
 
@@ -15,7 +19,9 @@ database: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part3/phone
 
 
 
-## blog list project
+## Blog list project
+
+#### keywords: testing, Jest, authentication, End to end testing, Cypress
 
 backend with tests: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part4
 
@@ -28,7 +34,9 @@ end to end testing: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/p
 state management and style : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part7/bloglistFrontend
 
 
-## anecdote project
+## Anecdote project
+
+#### keywords: state management, Redux, React Router,  Custom Hooks
 
 frontend : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part6/anecdotes
 
@@ -36,6 +44,13 @@ backend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part6/anecdo
 
 using react router and hooks: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part7/Anecdotes_and_Hooks
 
+
+## Library project 
+#### keywords: GraphQL, Apollo Server, Apollo Client, Mongoose
+
+frontend : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part8/libraryFrontend
+
+backend : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part8/libraryBackend
 
 
 # Certificates
@@ -45,7 +60,10 @@ using react router and hooks: https://github.com/cathyfu1215/FullStackOpen2021/t
 ![certificate-reactnative](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/57d3f7ac-c718-4dae-aa82-fc6e3befbdb7)
 
 
-# Course Description
+
+
+
+## Course Description
 Source: https://studies.helsinki.fi/courses/course-unit/otm-7f2015a3-2003-44af-984b-c80df2cfab0f/CSM141081
 
 ## COURSE UNIT CSM141081
