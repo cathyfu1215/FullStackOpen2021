@@ -4,6 +4,47 @@ This course is an introduction to modern web development with JavaScript. The ma
 
 Other topics include debugging applications, container technology, configuration, managing runtime environments, and databases.
 
+# Sample Projects
+## phone book project 
+
+frontend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part2/The_Phonebook
+
+backend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part3/phonebook_backend
+
+database: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part3/phonebook_database
+
+
+
+## blog list project
+
+backend with tests: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part4
+
+frontend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part5/bloglist_Frontend
+
+tests: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part5/BloglistTests
+
+end to end testing: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part5/EndtoEndTesting
+
+state management and style : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part7/bloglistFrontend
+
+
+## anecdote project
+
+frontend : https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part6/anecdotes
+
+backend: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part6/anecdotes_backend
+
+using react router and hooks: https://github.com/cathyfu1215/FullStackOpen2021/tree/main/part7/Anecdotes_and_Hooks
+
+
+
+# Certificates
+![certificate-fullstack](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/64bd24e9-4e83-4da5-a329-a3629d40ad30)
+![certificate-graphql](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/11e5e906-7faa-49d2-8824-2214bb2c6e18)
+![certificate-typescript](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/78bd95b7-4b60-4557-bfd1-1f9c8c8946bb)
+![certificate-reactnative](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/57d3f7ac-c718-4dae-aa82-fc6e3befbdb7)
+
+
 # Course Description
 Source: https://studies.helsinki.fi/courses/course-unit/otm-7f2015a3-2003-44af-984b-c80df2cfab0f/CSM141081
 
@@ -167,9 +208,6 @@ Full Stack extensions:
 * Class components, Miscellaneous
 * Exercises
 
-![certificate-fullstack](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/64bd24e9-4e83-4da5-a329-a3629d40ad30)
-
-
 
 
 ## GraphQL (1 credit)
@@ -180,7 +218,6 @@ Full Stack extensions:
 * Login and updating the cache
 * Fragments and subscriptions
 
-![certificate-graphql](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/11e5e906-7faa-49d2-8824-2214bb2c6e18)
 
 
 
@@ -192,9 +229,6 @@ Full Stack extensions:
 * React with types
 
 
-![certificate-typescript](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/78bd95b7-4b60-4557-bfd1-1f9c8c8946bb)
-
-
 
 ## React Native (2 credits)
 #### part10 React Native ✅
@@ -202,8 +236,6 @@ Full Stack extensions:
 * React Native basics
 * Communicating with server
 * Testing and extending our application
-
-![certificate-reactnative](https://github.com/cathyfu1215/FullStackOpen2021/assets/87288821/57d3f7ac-c718-4dae-aa82-fc6e3befbdb7)
 
 
 
